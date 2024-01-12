@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Contact</title>
+</head>
+<body id="page">
+    <nav class="navbar">
+        <ul class="nav-list">
+            <div class="logo">
+                <img id="logo" src="./images/logoky.png" alt="logo" />
+                <div class="slogan">
+                    <h1 id="kentucky">Kentucky</h1>
+                    <h3 id="slogan">Unbridled Spirit</h3>
+                </div>
+            </div>
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+            <li>
+                <a href="./frankfort.html">Frankfort</a>
+            </li>
+            <li>
+                <a href="./louisville.html">Louisville</a>
+            </li>
+            <li>
+                <a href="./lexington.html">Lexington</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+        <div class="rightNav">
+            <button class="btn">Search</button>
+            <input type="text" name="search" id="search" />
+        </div>
+    </nav>
+
+        <div class="app-container">
+            <div class="content">
+                <div class="column-left">
+                    <div class="main-header">
+                        <h1>Send Us a Message</h1>
+                    </div>
+
+                    <div class="main-body">
+                        <form id="contact-form">
+                            <div class="formname">
+                              <label class="formlabel" for="firstName">First Name:</label>
+                              <input type="text" class="forminput" id="firstName" name="firstName" placeholder="Enter first name" required></input>
+            
+                              <label class="formlabel" for="lastName">Last Name:</label>
+                              <input type="text" class="forminput" id="lastName" name="lastName" placeholder="Enter last name" required></input>
+                            </div>
+            
+                            <label class="formlabel" for="email">Email:</label>
+                            <input type="email" class="forminput" id="email" name="email" placeholder="Enter email" required></input>
+            
+                            <label class="formlabel" for="confirm">Confirm Email:</label>
+                            <input type="email" class="forminput" id="confirm" name="confirm" placeholder="Re-enter email" required></input>
+            
+                            <label class="formlabel" for="question">Ask a question:</label>
+                            <input type="text" class="forminput" id="question" name="question" placeholder="Type here"></input>
+            
+                            <button type="button" id="formsubmit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="column-right">
+                    <div class="aside-header">
+                        <h2>Business Hours</h2>
+                    </div>
+                    <div class="aside-body">
+                        <p>Mon: 8am-5pm</p>
+                        <p>Tues: 2pm-3pm</p>
+                        <p>Wed: 8pm-11pm</p>
+                        <p>Thurs: Closed, probably</p>
+                        <p>Fri: Closed</p>
+                        <p>Sat: Closed</p>
+                        <p>Sun: 12am-5am</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer class="footer">
+        <p>Copyright 2024 ©-All rights are reserved</p>
+    </footer>
+
+    <script src="authentication.js"></script>
+</body>
+</html>

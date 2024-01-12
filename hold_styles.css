@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Georgia", Helvetica, Arial, sans-serif;
+  }
+  
+  p {
+    text-indent: 20px;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  h2 {
+    font-weight: 500;
+  }
+  
+  h3 {
+    font-style: italic;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  #page {
+    background-image: url("./images/img_bg.jpg"); /* Image Source: Avatar Knowmad | istockphoto.com */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+  }
+  
+  .app-container {
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 95%;
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .content {
+    background-color: lightgray;
+    padding: 15px;
+    width: 100%;
+    position: relative;
+  }
+  
+  .column-left {
+    width: 65%;
+    height: 100%;
+    float: left;
+  }
+  
+  .main-header {
+    background-color: lightsteelblue;
+    padding: 15px;
+  }
+  
+  .main-body {
+    margin-top: 20px;
+    min-height: 80%;
+    position: relative;
+  }
+  
+  .column-right {
+    width: 33%;
+    border: 5px solid darkgray;
+    float: right;
+  }
+  
+  .aside-header {
+    margin: 15px;
+    min-height: 10%;
+  }
+  
+  .aside-body {
+    margin: 15px;
+    padding: 15px;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .aside-album {
+    border: 1px solid darkgray;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .navbar {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+  
+  .logo {
+    height: 80px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100%;
+    max-height: 100%;
+  }
+  
+  .slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  
+  .nav-list {
+    padding-top: 10px;
+    width: 70%;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .nav-list li {
+    list-style: none;
+    margin-left: 20px;
+    padding: 0px 30px;
+  }
+  
+  .nav-list li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .nav-list li a:hover {
+    color: grey;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    padding: 2px;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style for the list items in the dropdown */
+  .dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  /* Change color on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown content when the dropdown button is clicked */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .rightnav {
+    width: 30%;
+    text-align: right;
+  }
+  
+  #search {
+    margin-right: 30px;
+    padding-left: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+  }
+  
+  .btn a:hover {
+    background-color: lightgreen;
+    color: lightgreen;
+  }
+  
+  .footer {
+    background-color: #000;
+    color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .table-component {
+    width: 100%;
+    border: 5px solid darkgray;
+    background-color: lightblue;
+  }
+  
+  .table-component thead {
+    border-bottom: 2px solid black;
+  }
+  
+  .table-component th {
+    padding: 5px;
+  }
+  
+  .table-component td {
+    border-bottom: 1px solid darkgray;
+    padding: 5px;
+  }
+  
+  .image-city {
+    border: 1px solid darkgray;
+    background-color: darkgray;
+    margin: 30px;
+    height: 40vh;
+    width: 55vh;
+    position: absolute;
+    top: 75%;
+    transform: translate(-30%, -45%);
+    transition: opacity 0.5s ease;
+  }
+  
+  .image-city img {
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+  }
+  
+  .image-city:hover {
+    opacity: 0;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formlabel {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .forminput {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .formname {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #firstName, #lastName {
+    width: 25%;
+  }
+  
+  #question {
+    width: 100%;
+    min-height: 100px;
+  }
+  
+  #formsubmit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
