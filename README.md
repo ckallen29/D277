@@ -86,3 +86,13 @@ G.  Submit a completed copy of the attached “Student Project Submission Form.�
 H.  Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized.
 
 I.  Demonstrate professional communication in the content and presentation of your submission.
+
+
+Resources
+
+Encyclopædia Britannica, inc. (2024, January 12). Kentucky. Encyclopædia Britannica. https://www.britannica.com/place/Kentucky
+Home Page | Churchill Downs. (n.d.). https://www.churchilldowns.com/ 
+Wikimedia Foundation. (2023, December 30). Frankfort, Kentucky. Wikipedia. https://en.wikipedia.org/wiki/Frankfort,_Kentucky 
+Wikimedia Foundation. (2024a, January 11). Lexington, Kentucky. Wikipedia. https://en.wikipedia.org/wiki/Lexington,_Kentucky 
+Wikimedia Foundation. (2024b, January 12). Kentucky. Wikipedia. https://en.wikipedia.org/wiki/Kentucky 
+Wikimedia Foundation. (2024c, January 12). Louisville, Kentucky. Wikipedia. https://en.wikipedia.org/wiki/Louisville,_Kentucky
