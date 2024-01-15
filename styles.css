@@ -264,7 +264,9 @@ form {
     color: lightskyblue;
     text-align: center;
     padding: 10px;
+    font-size: x-small;
     font-family: "Ubuntu", sans-serif;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
