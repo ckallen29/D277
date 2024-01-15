@@ -88,7 +88,7 @@ H.  Acknowledge sources, using in-text citations and references, for content tha
 I.  Demonstrate professional communication in the content and presentation of your submission.
 
 
-Resources
+Resources and Citations
 
 Encyclopædia Britannica, inc. (2024, January 12). Kentucky. Encyclopædia Britannica. https://www.britannica.com/place/Kentucky
 Home Page | Churchill Downs. (n.d.). https://www.churchilldowns.com/ 
